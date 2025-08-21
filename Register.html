@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="Russian">
+  <head>
+    <title>Library of Ruina</title>
+	<link rel="icon" href="Icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    </style>
+  </head>
+  <body>
+      <link href="./main.css" rel="stylesheet" />
+	  <link href="./Register.css" rel="stylesheet" />
+      <div class="main-container">
+        <div class="main-main">
+          <div class="main-header">
+			<div class = "header-links">
+				<ul class= "header-menu">
+					<li>
+						<a class="main-Link" href="Head.html" target="_self">Главная Страница|</a>
+					</li>								
+					<li>
+						<a class="main-Link" href="Register.html" target="_top">Регистрация/вход|</a>
+					</li>	
+					<li>
+						<a class="main-Link" href="Book.html" target="_top">Книги|</a>
+					</li>	
+					<li>
+						<a class="main-Link" href="About.html" target="_top">О библиотеке</a>
+					</li>
+				</ul>		
+			</div>
+          </div>
+		  <div class = "body">
+			  <div class = "Register">
+						<span class="main-text1">РЕГИСТРАЦИЯ</span><br>
+						<label for="login" class="main-text1">Логин</label><br>
+						<input class="main-rectangle" type="text" name="login" id="login" placeholder="Введите Логин" maxlength="30" required ><br>
+						<label for="email" class="main-text1">Электронная почта</label><br>
+						<input class="main-rectangle" type="email" name="email" id="email" placeholder="Введите email" maxlength="20" required ><br>
+						<label for="email" class="main-text1">Пароль</label><br>
+						<input class="main-rectangle" type="password" name="passwd" id="passwd" placeholder="Введите пароль" maxlength="20" required ><br><br><br>
+						<input onclick = "send()" class="main-sendt" type="submit" name="send" id="send" value="Отправить" >
+			  </div>
+		  </div>
+		  <div class="main-footer">
+			<div class = "contact">
+				<div class="footer-text">
+					Эл.почта:
+					<br />
+					Lcorp@gmail.com
+				</div>
+				<div class="footer-text">
+					Телефон:
+					<br />
+					89300988776
+				</div>
+				<div class="footer-text">
+					Адрес:
+					<br />
+					г.Сеул, район L, 
+					<br />
+					ул. 15, клавный корпус
+				</div>
+			</div>
+			<div class = "links">
+				<a href="https://vk.com/projmoon" target="_blank">
+					<img
+						src="Pict/VK.png"
+						class="footer-VK"
+					/>
+				</a>
+				<a href="https://twitter.com/ProjMoonStudio" target="_blank">
+					<img
+						src="Pict/twitter.png"
+						class="footer-twitter"
+					/>
+				</a>
+				<br>
+				<a href="https://www.youtube.com/channel/UCpqyr6h4RCXCEswHlkSjykA" target="_blank">
+					<img
+						src="Pict/YouTube.png"
+						class="footer-YouTube"
+					/>
+				</a>
+			</div>
+				<div class = "menu">
+					<ul class= "footer-menu">
+						<li>
+							<a class="main-Link" href="https://www.fandom.com/ru/terms-of-use-ru" target="_blank">Пользовательское соглашение</a>
+						</li>				
+						<li>
+							<a class="main-Link" href="https://www.fandom.com/privacy-policy" target="_blank">Политика конфиденцальности </a>
+						</li>
+					</ul>
+				</div>
+				<div class = "woter">
+					<div class="footer-wotermark">
+						© qwadrator 2023 <br> Все права защищены
+					</div>
+				</div>
+			<div class = "WN1">
+				<img
+					src="Pict/WN.jpg"
+					alt="WN"
+					class="WN"
+				/>
+			</div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
